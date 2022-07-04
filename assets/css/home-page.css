@@ -1,0 +1,36 @@
+#Home-Page{
+    color:white;
+}
+
+#main-heading{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#Home-Page .desc{
+    font-family:'Poppins';
+    font-weight:100;
+    font-size:small;
+    word-spacing:1.2rem;
+    letter-spacing:0.2rem;
+}
+#Home-Page .title{
+    font-family:'Jura';
+    font-size:72px;
+    margin-bottom:2rem;
+}
+#Home-Page .main-logo{
+    height:250px;
+}
+#timer-section .timer-title{
+    font-family:'Jura';
+    letter-spacing:0.1rem;
+    font-size:48px;
+}
+#timer-section .timer{
+    display:flex;
+    font-size:72px;
+    font-family:'Poppins';
+}

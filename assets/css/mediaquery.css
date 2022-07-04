@@ -1,0 +1,80 @@
+/* Nav Bar */
+.navbar{
+    display:none;
+}
+#mob-navbar{
+    position:absolute;
+    /* right:6px;
+    top:6px; */
+    margin:2rem;
+}
+#overlay a{
+    font-size: 1rem;
+}
+
+/* scroll down and discord positioning */
+#scroll-down{
+    left:0.5rem;
+    font-size:small;
+}
+
+.discord-logo{
+    font-size:large;
+}
+.discord-text{
+    color:white;
+    font-size:small;
+    font-family:'Poppins';
+    font-weight:100;
+}
+
+#Home-Page .main-logo{
+    height:150px;
+}
+
+#Home-Page{
+    color:white;
+}
+
+#main-heading{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#Home-Page .desc{
+    font-family:'Poppins';
+    font-weight:100;
+    font-size:10px;
+    word-spacing:0.2rem;
+    letter-spacing:0.1rem;
+}
+#Home-Page .title{
+    font-family:'Jura';
+    font-size:42px;
+    margin-bottom:2rem;
+}
+
+#timer{
+    display:flex;
+    font-size:24px;
+    font-family:'Poppins';
+}
+#timer-section .timer-title{
+    font-family:'Jura';
+    letter-spacing:0.1rem;
+    font-size:32px;
+}
+#timer-section .timer{
+    display:flex;
+    font-size:72px;
+    font-family:'Poppins';
+}
+#date{
+    font-size:25px !important;
+}
+
+#scroll-down{
+    display:none;
+}

@@ -92,6 +92,7 @@
   
   #overlay a:hover {
     opacity: 1;
+    text-decoration: line-through;
   }
   .navbar{
     position:fixed;

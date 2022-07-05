@@ -34,3 +34,13 @@
     font-size:72px;
     font-family:'Poppins';
 }
+#seconds{
+    color:#C3C3C3;
+}
+.semicolon{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+#date{
+    margin:2rem;
+}

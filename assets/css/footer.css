@@ -9,9 +9,9 @@
 
 .wrapper{
     /*background-color: rgb(6, 16, 71);*/
-    /*background-image: url('rOTo2b5.jpg');
+    background-image: url('/assets/images/rOTo2b5.jpg');
     background-position: center;
-    background-size: cover;*/
+    background-size: cover;
     display:flex;
     width:auto; 
     flex-direction: column;

@@ -19,7 +19,7 @@
     height: clamp(2rem, 1.4vw + 1.7rem, 5rem);
     display: flex;
     align-items: center;
-    z-index: 9;
+    z-index: 10;
   }
   
   #hamburger:hover {
@@ -67,7 +67,7 @@
     width: 100%;
     min-height: 100%;
     background-color: var(--secondary);
-    z-index: 2;
+    z-index: 10;
     transform: translateY(-100%);
     transition: all 0.5s ease-in-out;
     display: flex;

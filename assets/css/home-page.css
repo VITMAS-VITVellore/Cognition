@@ -1,5 +1,6 @@
 #Home-Page{
     color:white;
+    background-color:var(--primary);
 }
 
 #main-heading{
@@ -16,31 +17,62 @@
     word-spacing:1.2rem;
     letter-spacing:0.2rem;
 }
+
 #Home-Page .title{
     font-family:'Jura';
     font-size:72px;
     margin-bottom:2rem;
 }
+
 #Home-Page .main-logo{
     height:250px;
 }
+
 #timer-section .timer-title{
     font-family:'Jura';
     letter-spacing:0.1rem;
     font-size:48px;
 }
+
 #timer-section .timer{
     display:flex;
     font-size:72px;
     font-family:'Poppins';
+    letter-spacing:0.2rem;
 }
+
 #seconds{
     color:#C3C3C3;
 }
+
 .semicolon{
     margin-left:2rem;
     margin-right:2rem;
 }
+
 #date{
     margin:2rem;
+}
+
+#tracks{
+    background-color:orange;
+}
+
+#button{
+    transition:0.3s;
+    padding:1.2rem;
+    border-radius:2rem;
+    font-family: 'poppins';
+    cursor:pointer;
+    text-align:center;
+    width:15%;
+    color:black;
+    background:white;
+    z-index:9;
+}
+
+#button:hover{
+    color:white;
+    background:none;
+    border:2px solid white;
 }

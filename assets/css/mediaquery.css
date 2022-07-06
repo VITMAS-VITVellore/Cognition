@@ -65,10 +65,11 @@
     font-family:'Jura';
     letter-spacing:0.1rem;
     font-size:32px;
+    margin:2rem;
 }
 #timer-section .timer{
     display:flex;
-    font-size:72px;
+    font-size:small;
     font-family:'Poppins';
 }
 #date{
@@ -77,4 +78,9 @@
 
 #scroll-down{
     display:none;
+}
+
+#button{
+    width:fit-content;
+    
 }

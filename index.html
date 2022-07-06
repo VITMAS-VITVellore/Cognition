@@ -19,7 +19,6 @@
   <body>
     <!-- particle js files -->
     <div id="particles-js"></div>
-    
     <!-- navbar section -->
     <div id="overlay">
       <a href="#Home-Page">Home</a><br />
@@ -88,8 +87,9 @@
 
     <!-- section for about us -->
     <section id="about-us"></section>
-    <!-- section for tracks -->
 
+    <!-- section for tracks -->
+    <section id="tracks"></section>
     <!-- section for prizes -->
 
     <!-- section for timeline -->
@@ -104,7 +104,17 @@
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/timer.js"></script>
-    <script src="./assets/js/particles.js"></script>
+
+    <!-- particle json cdn file -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- app.js for particles -->
+    <script>
+      particlesJS.load("particles-js", "assets/particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <!-- fontawesome icons -->
     <script
       src="https://kit.fontawesome.com/927a0cb14f.js"
       crossorigin="anonymous"

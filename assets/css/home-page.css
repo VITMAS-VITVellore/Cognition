@@ -57,7 +57,9 @@
 #tracks{
     background-color:orange;
 }
-
+#timeline{
+    background-color:var(--primary); 
+}
 #button{
     transition:0.3s;
     padding:1.2rem;

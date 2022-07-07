@@ -60,6 +60,9 @@
 #timeline{
     background-color:var(--primary); 
 }
+#prize{
+    background-color:var(--primary);
+}
 #button{
     transition:0.3s;
     padding:1.2rem;

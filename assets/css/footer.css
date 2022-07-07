@@ -46,6 +46,12 @@
     margin-bottom:2rem;
     margin:1rem;
 }
+
+.logo:hover{
+    transform:scale(1.2);
+    transition: ease-in-out 0.2s;
+}
+
 .con-info{
     display: flex;
     flex-direction: column;
@@ -53,7 +59,7 @@
     justify-content:center;
     font-size:small;
     /* padding:1rem; */
-    /* margin:1rem; */
+    margin-top:0.8rem;
 }
 .gmail{
     margin-right:1rem;
@@ -87,6 +93,11 @@
     color:#ffededa1;
     font-family: 'Jura';
 }
+.contact-menu a:hover{
+    text-decoration: line-through;
+    color: aliceblue;
+}
+
 .footer{
     /* margin-top:2rem; */
     color:#FFEDED;
@@ -101,7 +112,13 @@
 }
 .vitmas img{
     margin-bottom:2rem;
+    border-radius: 40px;
 }
+.vitmas img:hover{
+    transform:scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
 .vitmas{
     display: flex;
     flex-direction:column;

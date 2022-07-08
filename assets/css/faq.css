@@ -1,0 +1,11 @@
+.faqheading{
+    text-align: center;
+    margin-top: 0;
+    background: linear-gradient(#EF4D23,#FAAC16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    font-size: 60px;
+    top: 5rem;
+    font-weight: 800;
+}

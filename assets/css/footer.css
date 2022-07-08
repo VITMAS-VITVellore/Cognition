@@ -8,7 +8,8 @@
 
 
 .wrapper{
-    background-color: rgb(6, 16, 71);
+    /* background-color: rgb(6, 16, 71); */
+    background-color: rgb(15, 15, 15);
     /* background-image: url('/assets/images/rOTo2b5.jpg'); */
     display:flex;
     width:auto; 

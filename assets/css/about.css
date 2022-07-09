@@ -1,0 +1,40 @@
+#about-us {
+    padding: 1% 10%;
+    font-family: 'Jura';
+}
+
+#about-us div img {
+    height: 20%;
+    width: 20%;
+}
+
+#about-us div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-cognition div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#about-vitmas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-sas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 1030px) {
+    
+}

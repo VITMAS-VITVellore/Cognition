@@ -1,0 +1,117 @@
+#tracks main {
+    padding: 0 64px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Jura';
+    color: #06113C;
+}
+
+#tracks h1 {
+    font-family: 'Jura';
+    font-size: 4rem;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+#tracks h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#tracks p {
+    font-size: 1.2rem;
+}
+
+
+.card {
+    border-radius: 16px;
+    margin: 30px auto;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: #4384B4;
+    background-size: 70%;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-of-type(1) {
+    background-image: url(../images/health.png);
+}
+
+.card:nth-of-type(2) {
+    background-image: url(../images/fintech.png);
+}
+
+.card:nth-of-type(3) {
+    background-image: url(../images/education.png);
+}
+
+.card:nth-of-type(4) {
+    background-image: url(../images/openInnovation.png);
+}
+
+.card:nth-of-type(5) {
+    background-image: url(../images/insideFPV.png);
+}
+
+.info {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(100%) translateY(-88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+    color: #06113C;
+}
+
+.info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%) translateY(88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+}
+
+.card:hover .info,
+.card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.title {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (max-width:1400px) {
+    .card {
+        width: 430px;
+        height: 300px
+    }
+}
+
+@media (max-width:1040px) {
+    .card {
+        width: 470px;
+        height: 350px;
+    }
+}

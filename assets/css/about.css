@@ -1,0 +1,79 @@
+#about-us {
+    padding: 1% 10%;
+    height: fit-content;
+    font-family: 'Jura';
+    text-align: justify;
+}
+
+#about-vitmas h2 {
+    text-align: right;
+}
+
+#about-us div img {
+    height: 20%;
+    width: 20%;
+}
+
+#about-us div {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2% 0;
+}
+
+#about-cognition div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-vitmas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-sas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    #about-us {
+        padding: 5%;
+    }
+
+    #about-us h2 {
+        text-align: center;
+    }
+
+    #about-us span {
+        text-align: justify;
+    }
+
+    #about-cognition {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-cognition img {
+        width: 400px;
+    }
+
+    #about-vitmas {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-sas {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

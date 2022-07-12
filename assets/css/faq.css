@@ -6,6 +6,91 @@
     -webkit-background-clip: text;
     position: relative;
     font-size: 60px;
-    top: 5rem;
+    top: 2rem;
     font-weight: 800;
 }
+body {
+    background-color: rgb(30, 31, 34);
+  }
+details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 900px;
+    padding: 30px 30px 30px 30px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 16px;
+    top:3rem;
+    font-family: "Poppins";
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+    background-color: #1e1f22;
+  }
+  
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #1e1f22;
+    box-shadow: 1px 1px 10px #ff9f2963;
+  }
+  
+  details p {
+    color: #a7a7a7;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Jura";
+    font-size: 20;
+    color: white;
+  }
+  
+  summary:focus {
+    outline: none;
+    
+  }
+  
+  summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: #FAAC16;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    fill: #FAAC16;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  

@@ -7,6 +7,20 @@
     color: white;
 }
 
+#about-us h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10%;
+    background: linear-gradient(#EF4D23,#FAAC16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    font-size: 60px;
+    top: 5rem;
+    font-weight: 800;
+}
+
 #about-vitmas h2 {
     text-align: right;
 }
@@ -44,6 +58,16 @@
     justify-content: center;
 }
 
+#about-us h2{
+    margin-bottom: 5%;
+    color: white;
+    font-size:3rem;
+}
+#about-us .desc{
+    font-size:25px;
+    color:rgb(169, 166, 166);
+}
+
 @media (max-width: 768px) {
     #about-us {
         padding: 5%;
@@ -51,6 +75,11 @@
 
     #about-us h2 {
         text-align: center;
+        font-size: 17px;
+    }
+
+    #about-us .desc{
+        font-size:20px;
     }
 
     #about-us span {
@@ -62,11 +91,6 @@
         justify-content: center;
         align-items: center;
     }
-
-    #about-cognition img {
-        width: 400px;
-    }
-
     #about-vitmas {
         flex-direction: column;
         justify-content: center;
@@ -78,28 +102,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* #about-us h1{
+        font-size: 50px;
+    } */
 }
 
-#about-us h1{
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 10%;
-    background: linear-gradient(#EF4D23,#FAAC16);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    position: relative;
-    font-size: 60px;
-    top: 5rem;
-    font-weight: 800;
-}
 
-#about-us h2{
-    margin-bottom: 5%;
-    color: white;
-    font-size:3rem;
-}
-#about-us .desc{
-    font-size:25px;
-    color:rgb(169, 166, 166);
-}
+

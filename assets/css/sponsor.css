@@ -7,7 +7,7 @@
     -webkit-background-clip: text;
     position: relative;
     font-size: 60px;
-    top: 5rem;
+    top: 2rem;
     font-weight: 800;
 }
 
@@ -16,5 +16,14 @@
     text-align: center;
     margin-top: 10%;
     font-size: 35px;
+}
 
+@media screen and (max-width: 768px) {
+    /* .sponheading{
+        font-size: 40px;
+        top: 2rem;
+    } */
+    .spondescription{
+        font-size: 25px;
+    }
 }

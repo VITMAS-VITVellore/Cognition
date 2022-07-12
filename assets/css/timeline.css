@@ -8,6 +8,7 @@
   background: linear-gradient(#EF4D23,#FAAC16);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   position: relative;
   font-size: 60px;
   font-weight: 800;

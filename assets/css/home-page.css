@@ -85,6 +85,6 @@
 
 #button:hover{
     color:white;
-    background:none;
+    background-color: #060C24;
     border:2px solid white;
 }

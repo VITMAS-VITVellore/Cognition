@@ -12,8 +12,8 @@
 }
 
 #about-us div img {
-    height: 20%;
-    width: 20%;
+    height:200px;
+    margin:2rem;
 }
 
 #about-us div {
@@ -87,6 +87,7 @@
     background: linear-gradient(#EF4D23,#FAAC16);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     position: relative;
     font-size: 60px;
     top: 5rem;
@@ -95,5 +96,10 @@
 
 #about-us h2{
     margin-bottom: 5%;
-    color: rgb(255, 238, 0);
+    color: white;
+    font-size:3rem;
+}
+#about-us .desc{
+    font-size:25px;
+    color:rgb(169, 166, 166);
 }

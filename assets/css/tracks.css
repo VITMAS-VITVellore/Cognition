@@ -7,10 +7,17 @@
 }
 
 #tracks h1 {
-    font-family: 'Jura';
-    font-size: 4rem;
-    padding: 0.5em 0;
-    text-align: center;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10%;
+        background: linear-gradient(#EF4D23,#FAAC16);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        position: relative;
+        font-size: 60px;
+        top: 5rem;
+        font-weight: 800;
+        font-family: 'Jura';
 }
 
 #tracks h2 {
@@ -114,4 +121,8 @@
         width: 470px;
         height: 350px;
     }
+}
+
+#tracks{
+    background-color: #06113C;
 }

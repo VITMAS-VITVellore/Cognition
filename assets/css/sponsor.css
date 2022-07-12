@@ -1,6 +1,7 @@
 .sponheading{
     text-align: center;
     margin-top: 0;
+    margin-bottom: 10%;
     background: linear-gradient(#EF4D23,#FAAC16);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

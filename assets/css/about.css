@@ -3,6 +3,8 @@
     height: fit-content;
     font-family: 'Jura';
     text-align: justify;
+    background-color: black;
+    color: white;
 }
 
 #about-vitmas h2 {
@@ -76,4 +78,22 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+#about-us h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10%;
+    background: linear-gradient(#EF4D23,#FAAC16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    font-size: 60px;
+    top: 5rem;
+    font-weight: 800;
+}
+
+#about-us h2{
+    margin-bottom: 5%;
+    color: rgb(255, 238, 0);
 }

@@ -26,7 +26,7 @@
 }
 /* contact us styling */
 .contact .wrapper{
-    height:100vh;
+    min-height:100vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -36,7 +36,8 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Times New Roman', Times, serif';
+    gap:4rem;
+    font-family: 'Times New Roman', Times, serif'
 }
 .logos{
     display:flex;
@@ -81,11 +82,14 @@
 }
 .contact-menu{
     display:block;
-    margin:4rem;
+    /* margin:4rem; */
     font-family: 'Jura', sans-serif;
 }
 .contact-menu li{
-    margin:0.5rem;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    margin-left:0;
+    text-align: center;
     list-style-type: none;
     font-family: 'Jura', sans-serif;
 }
@@ -109,6 +113,7 @@
     align-items: center;
     justify-content:space-between;
     font-family: 'Jura';
+    /* gap:2rem; */
     /* margin-top:4rem; */
 }
 .vitmas img{
@@ -137,4 +142,14 @@
     font-size: 10px;
     /* margin:1rem; */
     font-family: 'Jura';
+}
+
+@media screen and (max-width:450px) {
+    #contact, .wrapper{
+        min-height:100vh;
+    }
+
+    .group3{
+        flex-direction:column;
+    }
 }

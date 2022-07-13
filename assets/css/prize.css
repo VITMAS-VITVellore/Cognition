@@ -1,11 +1,11 @@
 
 .prizeheading{
     text-align: center;
-    margin-top: 0;
+    padding-top: 2rem;
     background: linear-gradient(#EF4D23,#FAAC16);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    position: relative;
+    background-clip: text;
     font-size: 60px;
     top: 5rem;
     font-weight: 800;
@@ -17,4 +17,13 @@
     margin-top: 10%;
     font-size: 35px;
 
+}
+
+@media (max-width:450px){
+    .prizeheading{
+        font-size:2rem;
+    }
+    .prizedescription{
+        font-size:small !important;
+    }
 }

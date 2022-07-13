@@ -19,11 +19,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* .sponheading{
-        font-size: 40px;
+    .sponheading{
+        font-size: 2rem;
         top: 2rem;
-    } */
+    }
     .spondescription{
-        font-size: 25px;
+        font-size: small;
     }
 }

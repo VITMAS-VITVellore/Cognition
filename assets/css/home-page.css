@@ -16,6 +16,7 @@
     font-size:small;
     word-spacing:1.2rem;
     letter-spacing:0.2rem;
+    text-align: center;
 }
 
 #Home-Page .title{
@@ -87,4 +88,13 @@
     color:white;
     background-color: #060C24;
     border:2px solid white;
+}
+
+@media screen and (max-width:450px){
+    #main-heading{
+        flex-direction: column !important;
+    }
+    #Home-Page .title{
+        margin:0;
+    }
 }

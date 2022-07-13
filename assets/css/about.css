@@ -15,7 +15,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    position: relative;
+
     font-size: 60px;
     top: 5rem;
     font-weight: 800;
@@ -29,7 +29,9 @@
     height:200px;
     margin:2rem;
 }
-
+.cognition-logo{
+    height:250px !important;
+}
 #about-us div {
     display: flex;
     justify-content: space-between;
@@ -73,6 +75,9 @@
         padding: 5%;
     }
 
+    #about-us h1{
+        font-size:2rem;
+    }
     #about-us h2 {
         text-align: center;
         font-size: 17px;
@@ -102,7 +107,18 @@
         justify-content: center;
         align-items: center;
     }
-
+    #about-us div img {
+        height:100px;
+        margin:2rem;
+    }
+    .cognition-logo{
+        margin-top:2rem;
+        height:150px !important;
+    }
+    #about-us .desc{
+        font-size:15px;
+        color:rgb(169, 166, 166);
+    }
     /* #about-us h1{
         font-size: 50px;
     } */

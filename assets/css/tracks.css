@@ -8,12 +8,12 @@
 
 #tracks h1 {
         text-align: center;
-        margin-top: 0;
+        padding-top: 2rem;
         margin-bottom: 10%;
         background: linear-gradient(#EF4D23,#FAAC16);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        position: relative;
+        background-clip: text;
         font-size: 60px;
         top: 3rem;
         font-weight: 800;
@@ -129,14 +129,17 @@
 
 @media (max-width:768px) {
     .card {
-        width: 70%;
+        width: 100%;
         height: 200px;
     }
     #tracks h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     #tracks p {
         top: 5px;
         font-size: 0.72rem;
+    }
+    #tracks h1{
+        font-size:2rem;
     }
 }

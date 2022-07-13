@@ -57,6 +57,7 @@ section{
     color:white;
     font-family:'Poppins';
     font-weight:100;
+    margin-top:0.2rem;
 }
 /* @keyframes fly {
     0% { transform: translate(0,  0px); }
@@ -87,4 +88,20 @@ section{
     width:100%;
     position:absolute;
     background-attachment: fixed;
+}
+
+
+
+@media screen and (max-width:450px){
+    .discord-text{
+        display:none;
+    }
+    .discord-logo{
+        font-size:20px !important;
+        padding:1.2rem;
+        background-color:black;
+    }
+    #discord{
+        right:0;
+    }
 }

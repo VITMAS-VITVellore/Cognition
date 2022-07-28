@@ -10,6 +10,7 @@
 #about-us h1{
     text-align: center;
     margin-top: 0;
+    padding-top: 4rem;
     margin-bottom: 10%;
     background: linear-gradient(#EF4D23,#FAAC16);
     -webkit-text-fill-color: transparent;
@@ -19,7 +20,17 @@
     font-size: 60px;
     top: 5rem;
     font-weight: 800;
+   /* animation: animateHead 2s infinite; */
 }
+/* @keyframes  animateHead{
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position: 400% ;
+      }
+}   */
+
 
 #about-vitmas h2 {
     text-align: right;

@@ -6,9 +6,9 @@
     color: #06113C;
 }
 
-#tracks h1 {
+#tracks h1.head {
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 4rem;
         margin-bottom: 10%;
         background: linear-gradient(#EF4D23,#FAAC16);
         -webkit-text-fill-color: transparent;
@@ -18,7 +18,18 @@
         top: 3rem;
         font-weight: 800;
         font-family: 'Jura';
+        /* animation: animateHead 2s infinite; */
 }
+    /* @keyframes  animateHead{
+        from{
+            background-position:0%;
+        }
+        to{
+            background-position: 400% ;
+          }
+    }   */
+    
+  
 
 #tracks h2 {
     font-size: 3rem;

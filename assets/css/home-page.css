@@ -13,16 +13,16 @@
 #Home-Page .desc{
     font-family:'Poppins';
     font-weight:100;
-    font-size:small;
-    word-spacing:1.2rem;
+    font-size:15px;
+
     letter-spacing:0.2rem;
     text-align: center;
 }
 
 #Home-Page .title{
     font-family:'Jura';
-    font-size:72px;
-    margin-bottom:2rem;
+    font-size:92px;
+     margin-bottom:0.5rem;
     color: azure;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #seconds{
-    color:#C3C3C3;
+    color:#ff9f29;
 }
 
 .semicolon{

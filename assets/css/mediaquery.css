@@ -46,14 +46,14 @@
 #Home-Page .desc{
     font-family:'Poppins';
     font-weight:100;
-    font-size:10px;
+    font-size:14px;
     word-spacing:0.2rem;
     letter-spacing:0.1rem;
 }
 #Home-Page .title{
     font-family:'Jura';
-    font-size:42px;
-    margin-bottom:2rem;
+    font-size:62px;
+    margin-bottom:0.5rem;
 }
 
 #timer{

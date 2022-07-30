@@ -25,7 +25,7 @@
     font-family: 'Jura';
     font-size: 72px;
     margin-bottom: 2rem;
-    color: rgb(255, 217, 0);
+    color: #ff9f29;
   }
   
   #h3 .dat{
@@ -50,10 +50,11 @@
   
   .timeline ul li {
     padding: 20px;
-    background-color: #1e1f22;
+    background-color:#4384B4;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 20px;
+    
   }
   
   .timeline ul li:last-child {
@@ -84,7 +85,7 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 53%;
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
@@ -96,10 +97,11 @@
     /* position: relative; */
     margin-bottom: 50px;
     margin-top: 50px;
+    
   }
   
   .timeline ul li:nth-child(odd) {
-    float: left;
+    float: 79px;
     clear: right;
     transform: translateX(-30px);
     border-radius: 20px 0px 20px 20px;
@@ -110,6 +112,7 @@
     clear: left;
     transform: translateX(30px);
     border-radius: 0px 20px 20px 20px;
+    margin-left:30px ;
   }
   
   .timeline ul li::before {

@@ -69,7 +69,7 @@
 }
 #timer-section .timer{
     display:flex;
-    font-size:small;
+    font-size:25px;
     font-family:'Poppins';
 }
 #date{

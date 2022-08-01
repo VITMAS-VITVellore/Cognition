@@ -10,12 +10,20 @@
     top: 2rem;
     font-weight: 800;
 }
-
 .spondescription{
     color: white;
     text-align: center;
     margin-top: 10%;
     font-size: 35px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    margin:2rem;
 }
 
 @media screen and (max-width: 768px) {

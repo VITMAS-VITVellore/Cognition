@@ -14,7 +14,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-
 }
 /*  */
 
@@ -33,6 +32,7 @@
 /* general section styling */
 section{
     min-height:100vh;
+    margin:0 !important;
     background-color:var(--primary);
     background-attachment: fixed;
 }

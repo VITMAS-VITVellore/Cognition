@@ -2,6 +2,7 @@
     color:white;
     background-color:var(--primary);
     background-image: radial-gradient(circle at 100%,transparent 50%,black 65%);
+    background-attachment: fixed; 
 }
 
 #main-heading{

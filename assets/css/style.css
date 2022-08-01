@@ -34,6 +34,7 @@
 section{
     min-height:100vh;
     background-color:var(--primary);
+    background-attachment: fixed;
 }
 
 /* discord button */
@@ -87,7 +88,7 @@ section{
     height:100vh;
     width:100%;
     position:absolute;
-    background-attachment: fixed;
+
 }
 
 

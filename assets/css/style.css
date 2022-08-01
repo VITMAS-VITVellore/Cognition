@@ -33,7 +33,7 @@
 /* general section styling */
 section{
     min-height:100vh;
-    background-color:var(--secondary);
+    background-color:var(--primary);
 }
 
 /* discord button */

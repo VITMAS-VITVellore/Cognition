@@ -3,7 +3,7 @@
     height: fit-content;
     font-family: 'Jura';
     text-align: justify;
-    background-color: black;
+    background-image: linear-gradient(to right, black, transparent);
     color: white;
 }
 

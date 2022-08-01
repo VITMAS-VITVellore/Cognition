@@ -10,7 +10,7 @@
 .wrapper{
     /* background-color: rgb(6, 16, 71); */
     background-color: rgb(15, 15, 15);
-    /* background-image: url('/assets/images/rOTo2b5.jpg'); */
+    background-image: linear-gradient(to right, black, transparent);
     display:flex;
     width:auto; 
     flex-direction: column;

@@ -1,6 +1,7 @@
 #Home-Page{
     color:white;
     background-color:var(--primary);
+    background-image: radial-gradient(circle at 100%,transparent 50%,black 65%);
 }
 
 #main-heading{
@@ -57,19 +58,20 @@
 }
 
 #tracks{
-    background-color:orange;
+    background-image: linear-gradient(to right, black, transparent);
 }
 #timeline{
-    background-color:var(--primary); 
+    background-image: linear-gradient(to right, black, transparent);
 }
 #prize{
-    background-color:rgb(0, 0, 0);
+    background-image: linear-gradient(to right, black, transparent);
 }
 #sponsor{
-    background-color:#060C24;;
+    background-image: linear-gradient(to right, black, transparent);
 }
 #faqs{
-    background-color:#000;
+    background-image: linear-gradient(to right, black, transparent);
+    
 }
 #button{
     transition:0.3s;

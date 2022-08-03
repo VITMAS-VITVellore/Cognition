@@ -147,7 +147,10 @@
       background-color: #ff9f29;
     }
     
-  }
+    .img-container{
+      flex-direction: column;
+    }
+}
 /*Prizes Section */
   .prizedescription{
     font-size: 25px;

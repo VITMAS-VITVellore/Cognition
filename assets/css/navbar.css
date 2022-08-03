@@ -1,6 +1,7 @@
 /* Nav Bar Styling*/
 .overlay{
     display: block;
+    z-index:11;
 }
 #mob-navbar{
     position:absolute;

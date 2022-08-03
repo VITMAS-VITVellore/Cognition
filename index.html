@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="./assets/css/faq.css"/>
     <link rel="stylesheet" href="./assets/css/about.css"/>
     <link rel="stylesheet" href="./assets/css/tracks.css">
+    <link rel="stylesheet" href="./assets/css/alert.css">
     <link rel="stylesheet" media="screen and (max-width: 1030px)" href="./assets/css/mediaquery.css"/>
   </head>
   <body>
+    
     <!-- particle js files -->
     <div id="particles-js"></div>
     <!-- navbar section -->
@@ -40,6 +42,7 @@
     </div>
 
     <!-- discord and scroll down -->
+   
     <div id="discord">
       <a href="https://discord.gg/3qcMXkpgFg" class="flex-center">
         <i class="fa-brands fa-discord discord-logo"></i>
@@ -54,6 +57,10 @@
 
     <!-- section for home page-->
     <section id="Home-Page" class="flex-center">
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        We are live ! VISIT US <a href="/">HERE</a>
+      </div>
       <div id="main-heading">
         <div class="logo">
           <img class="main-logo" src="./assets/images/Logo.png" />
@@ -278,22 +285,23 @@
     <!-- section for sponsors-->
     <section id="sponsor">
       <p class="sponheading" style="font-family: 'Jura';">SPONSORS</p>
-      <div>
+      <div id="logos">
          
-        <div class="my-4 logo-container">
-          <img class="img-container"src="./assets/images/sp.png" height="80px" >
+        <div class="logo-container">
+          <img class="img-container gfg"src="./assets/images/sp.png" height="100px" >
         </div>
-          <div class="my-4 logo-container">
-            <img class="img-container" src="./assets/images/logo1.jpg" height="50px">
-            <img class="img-container" src="./assets/images/logo2.png" height="50px">
-          </div>
-          <div class="my-4 logo-container">
+          <div class="logo-container">
+            <img class="img-container" src="./assets/images/taskade.png" height="50px">
+            <img class="img-container" src="./assets/images/lgm.png" height="100px">
             <img class="img-container" src="./assets/images/logo3.png" height="100px">
-            <img class="img-container" src="./assets/images/logo4.png" height="100px">
           </div>
-          <div class="my-4 logo-container">
-            <img class="img-container" src="./assets/images/logo5.jpeg" height="150px">
-            <img class="img-container" src="./assets/images/logo6.png" height="150px">
+          <div class="logo-container" style="display:flex;flex-direction: column;">
+            <img class="img-container guvi" src="./assets/images/logo6.png" height="250px">
+          </div>
+          <div class="logo-container">
+            <img class="img-container" src="./assets/images/logo4.png" height="150px" style="margin:0;">
+            <div class="logo-name">Befikra</div>
+            <img class="img-container guvi" src="./assets/images/cuvette.png" height="250px">
           </div>
       </div>
     </section>
@@ -365,6 +373,27 @@
 
 
     <!-- scripts -->
+    <script>
+      // Get all elements with class="closebtn"
+      var close = document.getElementsByClassName("closebtn");
+      var i;
+      
+      // Loop through all close buttons
+      for (i = 0; i < close.length; i++) {
+        // When someone clicks on a close button
+        close[i].onclick = function(){
+      
+          // Get the parent of <span class="closebtn"> (<div class="alert">)
+          var div = this.parentElement;
+      
+          // Set the opacity of div to 0 (transparent)
+          div.style.opacity = "0";
+      
+          // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+          setTimeout(function(){ div.style.display = "none"; }, 600);
+        }
+      }
+      </script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/timer.js"></script>

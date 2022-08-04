@@ -9,6 +9,7 @@
     font-size: 60px;
     top: 5rem;
     font-weight: 800;
+    margin-bottom: 3.5rem;
 }
 
 .prizedescription{
@@ -18,12 +19,54 @@
     font-size: 4rem;
 
 }
+.easy{
 
-@media (max-width:450px){
+    cursor:pointer;
+    font-family:'Trispace';
+    font-size:1.2rem;
+    font-weight:200;    
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+    padding: 2.5%;
+    border-radius:3.5rem;
+    background: linear-gradient(#4384B4,#112c3d);
+    color:white;
+    border:none;
+    width:44%;
+    height: 200px;
+    overflow: hidden;
+}
+.easy:hover, .difficult:hover{
+    background:rgba(56, 56, 56, 0.7);
+}
+.titlep{
+    color: wheat;
+    font-family: 'poppins';
+    font-size: 30px;
+}
+.parent1{
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2rem;
+}
+  
+
+@media (max-width:750px){
     .prizeheading{
         font-size:2rem;
     }
     .prizedescription{
         font-size:small !important;
+    }
+    .parent1{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 460px;
+    }
+    .easy{
+        width: 80vw;
+        padding: 8%;
     }
 }

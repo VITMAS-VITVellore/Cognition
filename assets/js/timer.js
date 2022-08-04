@@ -14,7 +14,7 @@ function padZero(n){
 }
 // end result
 setInterval(() =>{
-    let date1 = new Date('8/5/2022 05:30:00');
+    let date1 = new Date('8/5/2022 17:30:00');
     let date2 = new Date();
     // time difference in milliseconds
     let timeleft = Math.abs(date2 - date1);

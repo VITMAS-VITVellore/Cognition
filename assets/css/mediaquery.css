@@ -81,8 +81,8 @@
 }
 
 #button{
-    width:fit-content;
-    
+    width:200px;
+    padding:0.5rem;
 }
  
 /*Timeline Section */

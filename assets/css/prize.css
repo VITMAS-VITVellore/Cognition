@@ -64,9 +64,11 @@
         flex-direction: column;
         justify-content: space-between;
         height: 460px;
+        margin-right: 1rem;
     }
     .easy{
-        width: 80vw;
+        width: 90vw;
         padding: 8%;
+        margin-right: 300px;
     }
 }

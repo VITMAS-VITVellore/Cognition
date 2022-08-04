@@ -25,6 +25,7 @@
 .img-container{
     margin:2rem;
     flex-direction: column;
+    
 }
 .img{
     flex-direction: column;
@@ -37,7 +38,9 @@
     letter-spacing:2px;
     font-weight:100;
     font-size:large;
+    align-items: left;
 }
+
 @media screen and (max-width: 768px) {
     .sponheading{
         font-size: 2rem;
@@ -51,6 +54,9 @@
     }
     .gfg{
         width:300px;
+    }
+    .bef{
+        margin: 0 !important;
     }
     .guvi{
         height:200px;

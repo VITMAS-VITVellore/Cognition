@@ -1,4 +1,6 @@
-
+#prize{
+    padding:0;
+}
 .prizeheading{
     text-align: center;
     padding-top: 2rem;
@@ -9,6 +11,7 @@
     font-size: 60px;
     top: 5rem;
     font-weight: 800;
+    width:fit-content;
     margin-bottom: 3.5rem;
 }
 
@@ -31,28 +34,51 @@
     justify-content:center;
     padding: 2.5%;
     border-radius:3.5rem;
-    background: linear-gradient(#4384B4,#112c3d);
+    /* background: linear-gradient(#4384B4,#112c3d); */
     color:white;
     border:none;
     width:44%;
-    height: 200px;
+    height: 400px;
     overflow: hidden;
+    box-shadow:2px 2px 5px grey;
 }
 .easy:hover, .difficult:hover{
-    background:rgba(56, 56, 56, 0.7);
+    /* background:rgba(67, 67, 68, 0.7); */
+    cursor:default;
+    box-shadow:none;
+    border:2px solid white;
 }
 .titlep{
     color: wheat;
-    font-family: 'poppins';
-    font-size: 30px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    text-align:center;
+    /* text-decoration: underline; */
 }
 .parent1{
     justify-content: space-between;
     width: 90%;
     margin-top: 2rem;
 }
-  
+.desc{
+    font-family:'Jura';
+    text-align:center;
+    letter-spacing:0.1rem;
+    margin-top:1rem;
+    font-size:15px;
+    transition:0.3s all ease;
+}
 
+.prize-list-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    margin:2rem;
+}
+.prize-list-item i{
+    font-size:30px;
+}
 @media (max-width:750px){
     .prizeheading{
         font-size:2rem;
@@ -72,3 +98,4 @@
         margin-right: 300px;
     }
 }
+

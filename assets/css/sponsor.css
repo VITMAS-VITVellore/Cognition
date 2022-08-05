@@ -1,6 +1,6 @@
 .sponheading{
     text-align: center;
-    margin-bottom:4rem;
+    margin-bottom:6rem;
     background: linear-gradient(#EF4D23,#FAAC16);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -21,9 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom:2rem;
 }
 .img-container{
-    margin:2rem;
+    /* margin:2rem; */
     flex-direction: column;
     
 }
@@ -39,6 +40,21 @@
     font-weight:100;
     font-size:large;
     align-items: left;
+}
+@media (max-width:950px){
+    .logo-container{
+        flex-direction: column;
+    }
+    .guvi{
+        height:200px;
+        margin:0 !important;
+    }
+    .cb{
+        height:50px;
+    }
+    .img-container{
+        margin:3rem !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -58,8 +74,5 @@
     .bef{
         margin: 0 !important;
     }
-    .guvi{
-        height:200px;
-        margin:0 !important;
-    }
+    
 }

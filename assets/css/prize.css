@@ -60,6 +60,7 @@
     width: 90%;
     margin-top: 2rem;
 }
+<<<<<<< HEAD
 .desc{
     font-family:'Jura';
     text-align:center;
@@ -68,6 +69,13 @@
     font-size:15px;
     transition:0.3s all ease;
 }
+=======
+#desc {
+    font-size:25px;
+    color:white;
+    font-family: 'poppins';
+} 
+>>>>>>> 3402878b06fb00dbdd1eba89eef13b3779e339ad
 
 .prize-list-item{
     display:flex;
@@ -98,4 +106,15 @@
         margin-right: 300px;
     }
 }
+<<<<<<< HEAD
 
+=======
+@media (max-width:390px) {
+    .titlep{
+        font-size: 25px;
+    }
+    .desc{
+        font-size: 16px;
+    }
+}
+>>>>>>> 3402878b06fb00dbdd1eba89eef13b3779e339ad

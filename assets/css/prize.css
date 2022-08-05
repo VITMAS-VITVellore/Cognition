@@ -51,7 +51,11 @@
     width: 90%;
     margin-top: 2rem;
 }
-  
+#desc {
+    font-size:25px;
+    color:white;
+    font-family: 'poppins';
+} 
 
 @media (max-width:750px){
     .prizeheading{
@@ -70,5 +74,13 @@
         width: 90vw;
         padding: 8%;
         margin-right: 300px;
+    }
+}
+@media (max-width:390px) {
+    .titlep{
+        font-size: 25px;
+    }
+    .desc{
+        font-size: 16px;
     }
 }
